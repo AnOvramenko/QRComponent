@@ -13,10 +13,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Встановлює висоту body на 100% висоти вікна */
-  margin: 0; /* Видаляє стандартні відступи body */
+  height: 100vh; 
 }
-/* Desktop */
+
 
 .container {
   display: flex;
