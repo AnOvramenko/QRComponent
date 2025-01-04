@@ -2,7 +2,7 @@ html {
   font-family: "Outfit", serif;
   font-size: 15px;
 }
-p, h1, img {
+p, h1, img, body {
   margin: 0;
 }
 h1 {
