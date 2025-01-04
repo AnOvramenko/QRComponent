@@ -1,0 +1,83 @@
+html {
+  font-family: "Outfit", serif;
+  font-size: 15px;
+}
+p, h1, img {
+  margin: 0;
+}
+h1 {
+  font-size: 1rem;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Встановлює висоту body на 100% висоти вікна */
+  margin: 0; /* Видаляє стандартні відступи body */
+}
+/* Desktop */
+
+.container {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 320px;
+  height: 499px;
+  flex-direction: column;
+  justify-content: space-around;
+
+  background-color: #ffffff;
+
+  border-radius: 10px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  padding: 16px 16px 40px 16px;
+  text-align: center;
+}
+
+.text{
+  color: hsl(216, 15%, 48%);
+}
+.title {
+  /* text-align: center; */
+  font-style: normal;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+.qr_image {
+  margin: 0;
+}
+
+.qrCode {
+  margin: 0;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  height: 288px;
+  width: 288px;
+}
+
+
+@media (max-width: 375px) {
+  .container {
+    width: 90%;
+    height: auto;
+  }
+
+  .qrCode {
+    height: auto;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+}
+
